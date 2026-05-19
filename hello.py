@@ -15,7 +15,7 @@ b = 5
 print(f"{a}+{b}={a+b}")
 print(f"{a}-{b}={a-b}")
 
-assert a+b ==15
+assert a+b ==15, "erreur dans le calcul"
 
-print("ok")
+print("tous les tests passent avec succes")
 
